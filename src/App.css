@@ -1,0 +1,40 @@
+.app { 
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #0056b3;
+}
+
+.property-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.property-card {
+  background-color: #dd8585;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-form {
+  margin-bottom: 20px;
+}
+
+.filter-form input {
+  padding: 8px;
+  margin-right: 10px;
+  background-color: burlywood;
+}
+
+.filter-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: burlywood;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-form button:hover {
+  background-color: #0056b3;
+}
